@@ -1,4 +1,4 @@
-# Lexis-release
+# Lexis
 A cross-platform word guessing game built with C# and .NET MAUI. Lexis is inspired by Wordle, offering engaging gameplay with multiple word lengths, timed challenges, and a competitive leaderboard system.
 
 ## Overview
