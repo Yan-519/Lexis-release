@@ -174,6 +174,7 @@ The project uses PyInstaller-style compilation for some platforms. Platform-spec
 ### Common Issues
 
 **Firebase Connection Failed**
+- Update to the latest version
 - Verify Firebase credentials are correctly configured
 - Check internet connection
 - Ensure Firebase project has proper security rules
@@ -186,17 +187,6 @@ The project uses PyInstaller-style compilation for some platforms. Platform-spec
 **Performance Issues on Android**
 - `EmbedAssembliesIntoApk` is disabled to reduce initial load time
 - For production, consider enabling trimming and optimization
-
-## Future Enhancements
-
-Potential features for future versions:
-- 🌐 More language support
-- 👥 Multiplayer competitive modes
-- 🎁 Daily challenges with unique rewards
-- 📊 Detailed statistics and analytics
-- 🎨 Customizable themes
-- 🔊 Sound effects and music
-- 📱 Offline mode with cached games
 
 ## License
 
