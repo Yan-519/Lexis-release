@@ -54,9 +54,6 @@ Lexis is a mobile application that challenges players to guess secret words with
 - **Target Platforms**: 
   - Android 10.0+ (API 21+)
   - Windows 10/11 (net10.0-windows)
-  - iOS 11.0+ (commented, can be enabled)
-  - macOS Catalyst 13.1+ (commented, can be enabled)
-  - Tizen (commented)
 
 ### Key Dependencies
 - **Firebase**:
@@ -87,7 +84,6 @@ Lexis/
 │   └── Answer_page.xaml
 ├── Platforms/          # Platform-specific implementations
 │   ├── Android/
-│   ├── iOS/
 │   └── Windows/
 └── Resources/          # Assets, fonts, images
 ```
@@ -98,7 +94,6 @@ Lexis/
 - .NET 10.0 SDK or later
 - Visual Studio 2024 or Visual Studio Code with C# extension
 - For Android: Android SDK (API 21+)
-- For iOS: Xcode and iOS SDK (iOS 11.0+)
 - For Windows: Windows 10/11
 
 ## Usage
@@ -148,7 +143,7 @@ Lexis/
 ### Customizable Settings
 - **Game Time Limit**: 1-300 seconds (60 seconds default)
 - **Language**: English or Hebrew
-- **Platform-Specific**: Separate configs for Android, iOS, Windows
+- **Platform-Specific**: Separate configs for Android, Windows
 
 ### Firebase Configuration
 Ensure your Firebase project is configured in the app with:
@@ -162,7 +157,6 @@ Ensure your Firebase project is configured in the app with:
 The project uses PyInstaller-style compilation for some platforms. Platform-specific build outputs:
 - Android: APK format (debug builds with embedded assemblies disabled)
 - Windows: .NET Native or standard executable
-- iOS: IPA format
 
 ### Advanced Features
 - **Unsafe blocks enabled** for performance-critical operations
